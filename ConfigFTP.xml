@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <!--用户名密码"root:tmcsoft@dc"-->
+    <FTPUserAuthen name = "root:tmcsoft"></FTPUserAuthen>
+    <!--ftp访问路径"sftp://192.168.2.103:22/tmcdata/lsl/ftpdir/HZ/12/"-->
+    <FtpUrl name = "sftp://192.168.2.140:22/data/hz_data/201601261/"></FtpUrl>
+    <!--日志文件路径"./LOG"-->
+    <FTPLogDir name = "./LOG"></FTPLogDir>
+    <!--输出文件路径"./OUTPUTDIR"-->
+    <FTPOutputDir name = "./OUTPUTDIR"></FTPOutputDir>
+    <!--已下载列表文件 "./FTPDoneFiles"-->
+    <FTPDdoneListFile name = "./FTPDoneFiles"></FTPDdoneListFile>
+    <!--几点更新已下载列表文件"2"-->
+    <FTPUpdateListHour name = "2"></FTPUpdateListHour>
+    <!--文件后缀".csv"-->
+    <FTPFileExtension name = ".xml.gz"></FTPFileExtension>
+    <!--文件前缀"TD-LTE_MRO"-->
+    <FTPFilePrefix name = "TD-LTE_MRO"></FTPFilePrefix>
+    
+</root>

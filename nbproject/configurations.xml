@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="lib" displayName="lib" projectFiles="true">
+      <itemPath>lib/libcurl.so.4.3.0</itemPath>
+    </logicalFolder>
+    <logicalFolder name="tools" displayName="tools" projectFiles="true">
+      <itemPath>tools/Markup.cpp</itemPath>
+      <itemPath>tools/Markup.h</itemPath>
+      <itemPath>tools/dir_info.c</itemPath>
+      <itemPath>tools/dir_info.h</itemPath>
+      <itemPath>tools/log.cpp</itemPath>
+      <itemPath>tools/log.h</itemPath>
+      <itemPath>tools/macro.cpp</itemPath>
+      <itemPath>tools/macro.h</itemPath>
+      <itemPath>tools/macro_define.h</itemPath>
+      <itemPath>tools/sem_unix.c</itemPath>
+      <itemPath>tools/sem_unix.h</itemPath>
+      <itemPath>tools/toolkit.c</itemPath>
+      <itemPath>tools/toolkit.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="HeaderFiles" displayName="头文件" projectFiles="true">
+      <itemPath>Callback_functions_curl.h</itemPath>
+      <itemPath>DoneFiles.h</itemPath>
+      <itemPath>FTPDriver.h</itemPath>
+      <itemPath>GlobalConfiger.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles" displayName="源文件" projectFiles="true">
+      <itemPath>Callback_functions_curl.cpp</itemPath>
+      <itemPath>DoneFiles.cpp</itemPath>
+      <itemPath>FTPDriver.cpp</itemPath>
+      <itemPath>GlobalConfiger.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles" displayName="资源文件" projectFiles="true">
+      <itemPath>ConfigFTP.xml</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="测试文件"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="重要文件"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>tools</Elem>
+    <Elem>curl</Elem>
+    <Elem>lib</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+          <commandlineTool>g++</commandlineTool>
+          <incDir>
+            <pElem>include</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibFileItem>lib/libcurl.so.4.3.0</linkerLibFileItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="Callback_functions_curl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Callback_functions_curl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ConfigFTP.xml" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DoneFiles.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DoneFiles.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FTPDriver.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FTPDriver.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GlobalConfiger.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GlobalConfiger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lib/libcurl.so.4.3.0" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tools/Markup.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tools/Markup.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tools/dir_info.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="tools/dir_info.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tools/log.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tools/log.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tools/macro.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tools/macro.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tools/macro_define.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tools/sem_unix.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="tools/sem_unix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tools/toolkit.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="tools/toolkit.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Callback_functions_curl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Callback_functions_curl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ConfigFTP.xml" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DoneFiles.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DoneFiles.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FTPDriver.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FTPDriver.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GlobalConfiger.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GlobalConfiger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lib/libcurl.so.4.3.0" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tools/Markup.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tools/Markup.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tools/dir_info.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="tools/dir_info.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tools/log.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tools/log.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tools/macro.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tools/macro.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tools/macro_define.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tools/sem_unix.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="tools/sem_unix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tools/toolkit.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="tools/toolkit.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
